@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,38 +12,46 @@
       background-color: #121212;
       color: #ffffff;
     }
+
     h1 {
-      color: #ffffff; /* White text color */
-      display: flex;
-      align-items: center;
+      color: #ffffff;
     }
-    h1 img {
-      margin-left: 10px; /* Adjust the margin as needed */
-      height: 30px; /* Adjust the height as needed */
-    }
+
     ul {
       list-style: none;
       padding: 0;
     }
+
     li {
       margin-bottom: 10px;
     }
+
     a {
       text-decoration: none;
       color: #64B5F6;
     }
+
+    /* New style for the YouTube badge */
+    .youtube-badge {
+      display: inline-block;
+      background-color: #c4302b; /* YouTube red color */
+      color: #ffffff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
   </style>
 </head>
+
 <body>
 
-  <h1>
-    はねくろ
-    <img src="youtube-verification-badge.png" alt="YouTube Verification Badge">
-  </h1>
+  <h1>はねくろ</h1>
 
   <ul>
     <li>
       <strong>YouTube:</strong> <a href="https://youtube.com/hanekuro" target="_blank">c/Hanekuro</a>
+      <!-- YouTube authentication badge -->
+      <span class="youtube-badge">YouTube</span>
     </li>
     <li>
       <strong>Twitter:</strong> <a href="https://www.x.com/hanekuro" target="_blank">@Hanekuro_</a>
@@ -51,4 +60,5 @@
   </ul>
 
 </body>
+
 </html>
