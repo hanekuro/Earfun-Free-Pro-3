@@ -6,18 +6,99 @@
     <title>はねくろ (@Hanekuro)</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-......" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #fff;
+            margin: 0 auto 10px;
+            overflow: hidden;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 i {
+            margin-left: 5px;
+            color: #1da1f2; /* FontAwesome バッジの色 */
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .social-links a {
+            display: inline-block;
+            text-decoration: none;
+            color: #343a40;
+            background-color: #fff;
+            padding: 10px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .social-links a:hover {
+            background-color: #1da1f2;
+            color: #fff;
+        }
+
+        .bio {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-       <header>
+    <header>
         <div class="profile-picture">
             <!-- ここにプロフィール写真を追加 -->
+            <img src="your_profile_picture.jpg" alt="Profile Picture">
         </div>
-        <h1>はねくろ<i class="fas fa-check-circle"></i></h1>
+        <h1>はねくろ <i class="fas fa-check-circle"></i></h1>
     </header>
 
     <section class="social-links">
-        <a href="https://twitter.com/hanekuro_" target="_blank">X</a>
         <a href="https://youtube.com/hanekuro" target="_blank">YouTube</a>
+        <a href="https://google.com/" target="_blank">Discord</a>
     </section>
 
     <section class="bio">
@@ -25,7 +106,7 @@
     </section>
 
     <footer>
-        <p>&copy; ALL RIGHT RESERVED.</p>
+        <p>&copy; ALL RIGHTS RESERVED.</p>
     </footer>
 </body>
 </html>
