@@ -3,64 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>index.html</title>
-  <style>
-    body {
-      font-family: 'Roboto',
-      margin: 20px;
-      background-color: #121212;
-      color: #ffffff;
-    }
-    h1 {
-      color: #ffffff;
-      display: flex;
-      align-items: center;
-    }
-    h1 img {
-      margin-left: 10px;
-      width: 25px;
-      height: 25px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-    a {
-      text-decoration: none;
-      color: #64B5F6;
-    }
-    footer {
-      margin-top: 30px;
-      text-align: left;
-      color: #ffffff;
-    }
-  </style>
+  <title>Earfun Pro 3</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <h1>はねくろ <img src="authentication-badge.jpg" alt="Authentication Badge"></h1>
-
-  <ul>
-    <li>
-      <strong>YouTube : </strong> <a href="https://youtube.com/hanekuro" target="_blank">hanekuro</a>
-    </li>
-    <li>
-      <strong>Twitter : </strong> <a href="https://www.x.com/hanekuro_" target="_blank">@hanekuro_</a>
-    </li>
-    <li>
-      <strong>Contact : </strong> <a href="mailto:g98670@proton.me" target="_blank">g98670@proton.me</a>
-    </li>
-  </ul>
-
+  <header>
+    <h1>レビューブログ</h1>
+    <nav>
+      <a href="#">ホーム</a>
+      <a href="#">カテゴリー</a>
+      <a href="#">お問い合わせ</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2>レビュー記事タイトル</h2>
+      <p>記事本文</p>
+      <img src="image.jpg" alt="画像">
+      <p>評価：★★★★☆</p>
+    </article>
+    <aside>
+      <section class="profile">
+        <img src="profile.jpg" alt="プロフィール画像">
+        <h3>Earfun Pro 3</h3>
+        <p>自己紹介</p>
+      </section>
+      <section class="category">
+        <h3>カテゴリー</h3>
+        <ul>
+          <li><a href="#">カテゴリー1</a></li>
+          <li><a href="#">カテゴリー2</a></li>
+          <li><a href="#">カテゴリー3</a></li>
+        </ul>
+      </section>
+      <section class="latest-articles">
+        <h3>最新記事</h3>
+        <ul>
+          <li><a href="#">最新記事タイトル1</a></li>
+          <li><a href="#">最新記事タイトル2</a></li>
+          <li><a href="#">最新記事タイトル3</a></li>
+        </ul>
+      </section>
+    </aside>
+  </main>
   <footer>
-    <p>(C) 2023-2024 はねくろ<br>ALL RIGHTS RESERVED</p>
+    <p>Copyright &copy; 2023 レビューブログ</p>
   </footer>
-
-</body>
-</html>
-
 </body>
 </html>
